@@ -33,6 +33,7 @@ pipeline {
         }
       }
     }
+  }
   post {
     success {
       mail to: 'bernd.doser@h-its.org', subject: "SUCCESS: ${currentBuild.fullDisplayName}", body: "All fine."
