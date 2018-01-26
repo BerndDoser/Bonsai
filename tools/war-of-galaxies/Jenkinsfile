@@ -2,7 +2,7 @@
 
 pipeline {
   agent {
-    dockerfile {
+    docker {
       image 'bernddoser/docker-devel-cpp:cuda-9.1-devel-cmake-3.10'
     }
   }
